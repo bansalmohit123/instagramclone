@@ -51,11 +51,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
               children: [
                 const CircleAvatar(
                   radius: 64,
-                  backgroundImage: NetworkImage('url'),
+                  backgroundImage: NetworkImage('https://in.images.search.yahoo.com/images/view;_ylt=AwrKDyXQ4w5mKgU8Tjy9HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzRkZjJlYWI3ZDlmNWEzY2JkNTA5OGQ0YzAwZmRkZTA3BGdwb3MDNwRpdANiaW5n?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbackground%2Bimages%26type%3DE210IN885G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D7&w=474&h=266&imgurl=www.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F08%2FBeautiful-nature-cool-images-background-hd.jpg&rurl=http%3A%2F%2Fwww.pixelstalk.net%2Fcool-nature-background-images%2F&size=247.6KB&p=background+images&oid=4df2eab7d9f5a3cbd5098d4c00fdde07&fr2=piv-web&fr=mcafee&tt=Cool+Nature+Background+Images+%7C+PixelsTalk.Net&b=0&ni=21&no=7&ts=&tab=organic&sigr=ePHq5nvB6vp.&sigb=H6U2GP0QUC1R&sigi=WuOUZ9FsSe8F&sigt=SADui3ML8gVE&.crumb=qZZ6SDs2e4g&fr=mcafee&fr2=piv-web&type=E210IN885G0'),
                 ),
                 Positioned(child: IconButton(onPressed: () {
                   
-                },icon: Icon(Icons.add_a_photo),
+                },icon: const Icon(Icons.add_a_photo),
                 ))
               ],
             ),
