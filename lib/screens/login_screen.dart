@@ -35,7 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
       setState(() {
         _isLoading=false;
       });
-       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>const ResponsiveLayout(webScreenlayout: WebScreenlayout(), mobileScreenlayout: MobileScreenlayout())));
+       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>const ResponsiveLayout(webScreenlayout: WebScreenlayout(), mobileScreenlayout: MobileScreenLayout())));
     }
     else{
       showSnackBar(res, context);

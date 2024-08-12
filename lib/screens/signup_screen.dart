@@ -62,7 +62,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
       setState(() {
         _isLoading = false;
       });
-      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>const ResponsiveLayout(webScreenlayout: WebScreenlayout(), mobileScreenlayout: MobileScreenlayout())));
+      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>const ResponsiveLayout(webScreenlayout: WebScreenlayout(), mobileScreenlayout: MobileScreenLayout())));
     }
   }
 
