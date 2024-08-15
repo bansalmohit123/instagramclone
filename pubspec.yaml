@@ -35,6 +35,8 @@ dependencies:
   firebase_storage: ^11.6.7
   image_picker:
   provider:
+  uuid:
+  intl:
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.10+1
