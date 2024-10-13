@@ -24,7 +24,7 @@ Once the project is set up and the configuration files are added to the app, you
 
 ## Authors
 
-- [@mohitbansal](https://github.com/bansalmohit12)
+- [@mohitbansal](https://github.com/bansalmohit123)
 
 ## Run Locally
 
